@@ -1,42 +1,18 @@
-# Elena Coffee Shop Full Stack
+# Coffee Shop Full Stack
 
-## Full Stack Nano - IAM Final Project
-
+## Full Stack Nanodegree
 Udacity has decided to open a new digitally enabled cafe for students to order drinks, socialize, and study hard. But they need help setting up their menu experience.
 ![image](https://user-images.githubusercontent.com/60936890/121037386-0857b980-c775-11eb-81a4-c0b990d9fc02.png)
 
-You have been called on to demonstrate your newly learned skills to create a full stack drink menu application. The application must:
+** Because the tokens provided would expired. I have created two dummies accounts to test this application on my Auth0 profile.
+## Manager Account
+Username:cs_manager@udacity.com
+Password: CShop21#
+Token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFhWXRQSXBsbEJGWVhlQ3ZJbTlmbiJ9.eyJpc3MiOiJodHRwczovL2Rldi1lbGMudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYwYmU2ZjUxNjEyZDgyMDA3MGE0ZWU1MCIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE2MjMwOTMzMzEsImV4cCI6MTYyMzEwMDUzMSwiYXpwIjoiVklnZTB3S21WcFBSa3k5Y1FYOGpwWThPS0tVTk5FbHAiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCIsInBhdGNoOmRyaW5rcyIsInBvc3Q6ZHJpbmtzIl19.EbuPPaZRQjjxOglF3B1Ake78Sb-KfnpsU0S9IgF35qxXDyiRCxzKQBNAFiFTHKC3Pphwk_Jj0-jApvdnxLUOstw3uVYZ48hfI2ZZiKItGTScT72Ksgt7VhPNZV6BaXFN0iosE-rz5x4w4NTvrrrhWvkrVO6mB1mo8NZDBf7m5tpsh6AENdGdYVDpPL-t7AvBQdVVLLJzuy4aPNsiDBXNDcITj3y2ETyz3TrYlXTrsLUHPTn522Cbit_CJUUe6ZPrfivta1Jb82TvKpj-tkf9Rw-cOid0p9G3yCvqgQybQdky_KCbZ7otGwSoplgKIFI43Tmg43Kr1sc0C9G4zqTM3A
 
-1. Display graphics representing the ratios of ingredients in each drink.
-2. Allow public users to view drink names and graphics.
-3. Allow the shop baristas to see the recipe information.
-4. Allow the shop managers to create new drinks and edit existing drinks.
+## Barista Account
+Username:cs_barista@udacity.com
+Password: CShop21#
+Token:eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFhWXRQSXBsbEJGWVhlQ3ZJbTlmbiJ9.eyJpc3MiOiJodHRwczovL2Rldi1lbGMudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYwYmU2ZmE2N2Y4MmQxMDA2ODE5MzRhYSIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE2MjMwOTMzOTgsImV4cCI6MTYyMzEwMDU5OCwiYXpwIjoiVklnZTB3S21WcFBSa3k5Y1FYOGpwWThPS0tVTk5FbHAiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MtZGV0YWlsIl19.qTsN32VAbdIIQ4qA2U3g65T4_KN0TmHJ5wcxeTiE4zOgQFzIId2IwwFjVFhWKWvolahE35rfTiD5xLDOmz_Law7tRkAmdQEKbCk5jh9c2Yx82mgk0T6UPuJzwzeB0Mm1wlXzx_QbBO5tCqQ1R1cKoK2xl0xpk5SY_dIxKRSdbfhTmESZkVYIpTyHwZwI-PRmQKXa4C2gmdG27zewzxb1nLIJkPAfpCxFh_WkDKy-wFqeMYAZIJb-biMAl5HoT5ZAuSmlfXCiQQ2MaZdoMITltngymJIj8O7i18ClPyR3ZHMJmhe3z-dIP0vuh3eAyYkJphJl1fQYWiFsANAIjLxD0w
 
-## Tasks
-
-There are `@TODO` comments throughout the project. We recommend tackling the sections in order. Start by reading the READMEs in:
-
-1. [`./backend/`](./backend/README.md)
-2. [`./frontend/`](./frontend/README.md)
-
-## About the Stack
-
-We started the full stack application for you. It is designed with some key functional areas:
-
-### Backend
-
-The `./backend` directory contains a partially completed Flask server with a pre-written SQLAlchemy module to simplify your data needs. You will need to complete the required endpoints, configure, and integrate Auth0 for authentication.
-
-[View the README.md within ./backend for more details.](./backend/README.md)
-
-### Frontend
-
-The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app.
-
-[View the README.md within ./frontend for more details.](./frontend/README.md)
-
-### Barista JWT
-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFhWXRQSXBsbEJGWVhlQ3ZJbTlmbiJ9.eyJpc3MiOiJodHRwczovL2Rldi1lbGMudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYwYWMwNzZlYjIwMGM0MDA3MTE2ZmYzMiIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE2MjMwNzU2MTgsImV4cCI6MTYyMzA4MjgxOCwiYXpwIjoiVklnZTB3S21WcFBSa3k5Y1FYOGpwWThPS0tVTk5FbHAiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MtZGV0YWlsIl19.itaLCbuayHUqQzyXQxfhwYviIjSAiBsJelZhHu30KgSVMFbCspBf6nfSOvaSkxG_0VnDKNBDaDw3hgAA-yexLeAerA23iODPpQ5kS0y50Rs4v7-0wj2kBxQrHLsoSmNK0Oqq4DtDK57v8BIE0fQ1lwxI5JOrbzHvU6Mx1U1NBStN3Hb4A7K72Agn-d-H4KkgAH2Egy4bzgBgmbQoOOg2mczWs_55pNC9kNOQnlsG4FqeExQoPTOpHVmjdV5APSNKwodApcNdwn17cJL68bq2dWVP2zRCwKcktJSh7JxH1PK7R0vy86WfTNDtUdUsVugZADXWe2upoVZLids138o-PQ
-
-### Manager JWT
-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFhWXRQSXBsbEJGWVhlQ3ZJbTlmbiJ9.eyJpc3MiOiJodHRwczovL2Rldi1lbGMudXMuYXV0aDAuY29tLyIsInN1YiI6ImF1dGgwfDYwYWQ1MmFjYzY1OWFjMDA2ODJmMjNmYSIsImF1ZCI6ImNvZmZlZXNob3AiLCJpYXQiOjE2MjMwNzUzNjAsImV4cCI6MTYyMzA4MjU2MCwiYXpwIjoiVklnZTB3S21WcFBSa3k5Y1FYOGpwWThPS0tVTk5FbHAiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCIsInBhdGNoOmRyaW5rcyIsInBvc3Q6ZHJpbmtzIl19.jpkc1JNwPD7pbNxpO5nv_sS8l_KpXWXRt_kFQpYEY9w05GZFBh4v0EdwHPIhzMr2qAaA2aS8GJ8bZrSR9pU4mWvglOZzTSXdmopJy6GirGmh49falIANkQy5pNgtFQzT24hNSd5TjcQ1oYb8c1OoORG90_n20KGzSwzcF4vaTUVACXyRILYX1ekxDPRS3DgQ1tONDp3V32cy2cdHEyNcDhnGdbj1zRkX5XF4u_M6sN7sqGsSmo-oqDo1MCuQxb86bCNRX7GzJTV3vpAHF7KjfidX-4Wh40ulEz9s9eULbGywW-JJWOuSFgEKCEtmEjaPyXeUZWjLWr0AB64TfYptFw
+##POSTman
