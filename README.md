@@ -1,8 +1,9 @@
-# Coffee Shop Full Stack
+# Elena Coffee Shop Full Stack
 
 ## Full Stack Nano - IAM Final Project
 
 Udacity has decided to open a new digitally enabled cafe for students to order drinks, socialize, and study hard. But they need help setting up their menu experience.
+![image](https://user-images.githubusercontent.com/60936890/121037386-0857b980-c775-11eb-81a4-c0b990d9fc02.png)
 
 You have been called on to demonstrate your newly learned skills to create a full stack drink menu application. The application must:
 
