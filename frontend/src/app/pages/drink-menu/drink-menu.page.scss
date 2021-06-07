@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap');
+ion-title {
+    font-family: 'Playfair Display', serif;  
+    font-size: 1.7em;
+}
+ion-content {
+    --ion-background-color: rgb(255, 252, 236) url("../../../assets/img/coffee.png")no-repeat center center / cover;
+  }
+
+ion-toolbar{
+    --ion-background-color:  rgb(240, 139, 88);
+}
